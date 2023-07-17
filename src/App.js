@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import  './index.css';
+import Title from './components/Title';
+import { IMG_CDN_URL } from './config';
+import HeaderComponent from './components/Header';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+   <HeaderComponent/>
     </div>
   );
+};
+
+//React.Fragment is a component imported from react
+// const styleObj = {
+//   backgroundColor:"red"
+// }
+
+
+const Footer =() =>{
+  return(
+    <React.Fragment>
+        <h4>Footer</h4>
+        <h1>hii</h1>
+    </React.Fragment>
+  
+  )
 }
+
 
 export default App;
