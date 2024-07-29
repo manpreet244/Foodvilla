@@ -13,8 +13,8 @@ example of useState hook :
  Here , title is variable to store the value , and setTitle is a function used to update title variable    
  #### -> When the variable title gets changed , whole component is rerendered , and variable is updated using diff algorithm   
  So the question is , only one variable is changing , will the whole component gets rerendered ?    
- Amswer is Yes , It triggers the reconciliation process , which makes react faster   
+ Answer is Yes , It triggers the reconciliation process , which makes react faster   
  ![image](https://github.com/user-attachments/assets/3d08c309-b8db-447a-873e-9d13323011ed)
 
-as in this image , there is old tree and a new tree , only the part(in red) that gets updated , get changed
+as in this image , there is old tree and a new tree , only the part(in red) that gets updated , get changed which makes React faster
 
