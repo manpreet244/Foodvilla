@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-# Why react need state variable like useState , and why cant we use normal variables   
+### Why react need state variable like useState , and why cant we use normal variables   
 Because react does not keep track of normal variable  . It keeps track of state variables to sync it up with the UI
 useState hook is to keep track of variables    
 example of useState hook :   
